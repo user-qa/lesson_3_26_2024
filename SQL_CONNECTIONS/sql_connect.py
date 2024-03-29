@@ -4,7 +4,7 @@ class DATABASE:
     @staticmethod
     def connect(query, type):
         database = psql.connect(
-            database = 'atm',
+            database = 'cm_system', # Card Management System Database
             host = 'localhost',
             user = 'postgres',
             password = '1605'

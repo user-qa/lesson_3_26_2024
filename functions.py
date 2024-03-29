@@ -142,6 +142,7 @@ def transaction(card_number):
             sender_history = f"{amount} dollars sent to {recipient_name} {recipient_card_number} at {time_now}"
             recipient_history = f"{amount} dollars received from {card_number} at {time_now} "
 
+
             # history_insert_sender = f"""insert into history (card_number, balance_change_history) values({card_number}, '{sender_history}')"""
             # history_insert_recipient = f"""insert into history (card_number, balance_change_history) values({recipient_card_number}, '{recipient_history}')"""
             # DATABASE.connect(history_insert_sender, 'insert')
